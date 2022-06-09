@@ -44,14 +44,19 @@ class DriverTest {
                 + "TRUE\n"
                 + "FALSE\n"
                 + "FALSE\n"
+                          +"TRUE\n"
+                          +"TRUE\n"
                 + "1000\n"
                 + "1200\n"
+                          + "1000\n"
+                          +"2000\n"
                 + "100\n"
                 + "100\n"
                 + "-1\n"
                 + "-1\n"
                 + "-1\n"
-                + "V2\n"
+                + "V5\n"
+                          +"2200\n"
                 + "FAIL\n";
 
         Driver.main(new String[] {"src/test/resources/testInput.txt"});
